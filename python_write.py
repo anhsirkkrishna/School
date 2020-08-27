@@ -9,6 +9,11 @@ wn.bgcolor('black')
 t.speed(6)
 
 t.pu()
+t.goto(-300.90,40.81)
+t.pd()
+t.dot(25, 'gray')
+
+t.pu()
 t.goto(-200, 50)
 t.pd()
 t.color('gray')
@@ -62,9 +67,6 @@ t.lt(135)
 t.fd(10)
 t.lt(45)
 t.end_fill()
-t.pu()
-t.goto(-300.90,40.81)
-t.pd()
-t.dot(25, 'gray')
+
 
 turtle.done()
